@@ -8,7 +8,7 @@ export type AppConfig = {
 }
 
 const appConfig: AppConfig = {
-    apiPrefix: 'http://34.207.235.171:3000/',
+    apiPrefix: 'http://ec2-34-207-235-171.compute-1.amazonaws.com',
     authenticatedEntryPath: '/main',
     unAuthenticatedEntryPath: '/main',
     tourPath: '/',
